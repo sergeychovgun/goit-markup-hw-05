@@ -423,10 +423,12 @@ address {
 }
 
 .footer-social-title {
+  font-size: 16px;
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 .footer-socials {
@@ -485,7 +487,7 @@ address {
   color: #ffffff;
 
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
 
   outline: none;
@@ -640,6 +642,8 @@ address {
 .form-label {
   display: block;
   font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
 }
@@ -685,6 +689,10 @@ address {
 .form-textarea {
   width: 100%;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 
   padding: 8px 16px;
 
@@ -692,7 +700,7 @@ address {
   border-radius: 4px;
 
   resize: none;
-  outline: none;
+  outline: transparent;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -737,6 +745,7 @@ input:checked + .checkbox-label .checkbox-custom {
 }
 
 .checkbox-custom svg {
+  opacity: 0;
   fill: #ffffff;
 }
 
@@ -750,6 +759,12 @@ input:checked + .checkbox-label .checkbox-custom {
 /* ---SUBMIT--- */
 
 .modal-submit {
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: block;
   margin: 0 auto;
 
